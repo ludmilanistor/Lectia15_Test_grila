@@ -31,9 +31,9 @@
 
             // ---- 4.Ce va afisa urmatorul program? ----
             Test_grila tt1 = new Test_grila();
-            Test_grila tt2 = t1;
+            Test_grila tt2 = tt1;
             System.out.println("4.Ce va afisa urmatorul program?");
-            System.out.println("f." + tt1.equals(tt2)); // f.false
+            System.out.println("f." + tt1.equals(tt2)); // e.true
             System.out.println("");
 
             // ----- 5.Ce va afisa urmatorul program? -----
